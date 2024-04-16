@@ -1,0 +1,180 @@
+/*
+Theme Name: Mini Shop
+Author: Enrique Gonzalez Babino
+Description: A custom theme for selling paints and materials for miniature painting.
+Version: 1.0
+*/
+
+/* basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    padding: 0 40px; 
+}
+
+a {
+    color: #0067d5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+   
+}
+
+.footer {
+    margin-top: auto; 
+    width: 100%; 
+    background-color: #333; 
+    color: white; 
+    text-align: center;
+    padding: 20px 0; 
+    
+}
+
+.hero-image {
+    width: 100%;
+    height: 400px; 
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px;
+
+}
+
+.intro-text {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.post-column {
+    width: 33.333%; 
+    float: left;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.post-column img {
+    width: 100%;
+    height: auto;
+}
+
+.read-more {
+    display: block;
+    margin-top: 10px;
+}
+
+.menu-item {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+}
+
+.menu-item:hover {
+    background-color: #eee;
+}
+
+.sub-menu {
+    background-color: #f1f1f1;
+}
+
+.sub-menu .menu-item:hover {
+    background-color: #e1e1e1;
+}
+.home-posts {
+    width: 100%;
+    overflow: hidden; 
+    padding: 20px 0; 
+}
+
+.post-column {
+    width: 33.33%; 
+    float: left; 
+    padding: 15px; 
+    box-sizing: border-box; 
+}
+
+.post-column img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
+.read-more {
+    display: block; 
+    margin-top: 10px; 
+    text-align: center; 
+}
+
+
+#site-navigation {
+    text-align: center;
+}
+
+
+#site-navigation ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    display: inline-block; 
+}
+
+
+#site-navigation ul li {
+    display: inline-block; 
+    margin-right: 20px; 
+}
+
+
+#site-navigation ul li a {
+    color: #fff;
+    padding: 10px; 
+    text-decoration: none;
+}
+
+
+#site-navigation .current-menu-item a {
+    border-bottom: 2px solid #fff;
+}
+
+
+.header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.menu-toggle {
+    display: none; 
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+
+#site-navigation ul li ul {
+    display: none; 
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 100;
+}
+
+#site-navigation ul li:hover ul {
+    display: block; 
+}
+
+#site-navigation ul li ul li {
+    display: block; 
+}
